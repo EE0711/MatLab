@@ -93,7 +93,7 @@ plot(V,I2,'-')
 I2 = polyval(C,V)
 plot(V,I2,'-')
 Inovirze = std(Im)
-errorbar(Vm,Im,Inovirze)
+##errorbar(Vm,Im,Inovirze)
 errorbar(Vm,Ivid,Inovirze,'.')
 hold off
 errorbar(Vm,Ivid,Inovirze,'.')
@@ -114,7 +114,7 @@ A = imread('bilde1.png');
 B = imread('bilde2.png');
 figure(1),image(A)
 figure(2),image(B)
-figure(2),image([500 800],[0 1]B)
+##figure(2),image([500 800],[0 1]B)
 figure(2),image([500 800],[0 1],B)
 figure(2),image([500 800],[1 0],B)
 set(gca,'YDir','normal')
