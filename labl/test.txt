@@ -1,0 +1,16 @@
+A = imread('SC.jpg');
+image(A)
+>> figure(1),image([380 780],[1 0],A);
+>> set(gca,'YDir','normal');
+>> [x,y] = ginput(56);
+figure(2);
+plot(x,y,'o');
+hold on
+>> C = polyfit(x,y,5?)
+>> y1 = polyval(C,x);
+plot(x,y1
+
+
+polyfit vaara sudus
+http://www.farnell.com/datasheets/2100365.pdf?_ga=2.103833095.645242958.1581317108-1975025106.1581317108
+polyfit un polyval funkciju huinja
